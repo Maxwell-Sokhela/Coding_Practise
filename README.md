@@ -2,3 +2,5 @@ The idea with this, is to get comfortable with using GitHub, uploading code and 
 Please don't take this too seriously
 I am currently using Python3 on Windows Subsystem for Linux
 And away we go
+
+All the code is obtained from Python for Begginers
