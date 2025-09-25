@@ -86,6 +86,7 @@ def join_with_and(sequence):
         last_item = sequence[-1]
         sentence = ", ".join(sequence[:-1])
         sentence = sentence + " and " + last_item
+    #In the book it is elif sequence but the correct command is elif len(sequence)
     elif len(sequence) < 1:
         sentence = "whole lot of nothing"
     else:
@@ -391,3 +392,4 @@ if trace:
     
 # Print winner
 print(players[0]['Name'], "wins the fight.")
+
