@@ -22,7 +22,7 @@ def the_age_game():
         age_1 = current_year - year_of_birth
 
         if age_1 < 15:
-            print("You are a Young Blood. Please stay in school")
+            print("You are still a baby. Please stay in school and don't do drugs")
 
         elif 16 <= age_1 <= 25:
             print("You are a Young Ninja. You have a bright future ahead.")
